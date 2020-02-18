@@ -1,0 +1,27 @@
+.nav-button{
+color: #FFF;
+transition:all 200ms ease-in-out;
+}
+
+.active-link{
+    color:#DC3545;
+    transition:all 200ms ease-in-out;
+}
+
+.active-link:hover{
+    color:#DC3545;
+}
+
+.nav-button:hover{
+    background-color: #DC3545;
+    color: #FFF;
+    border-radius:5px;
+}
+
+.badge-button{
+    transition:all 400ms ease-in-out;
+}
+
+.badge-button:hover{
+    transform:rotateX(360deg)
+}
