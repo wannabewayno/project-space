@@ -25,3 +25,8 @@ transition:all 200ms ease-in-out;
 .badge-button:hover{
     transform:rotateX(360deg)
 }
+
+.card-image{
+    max-width: 200px;
+    height:auto;
+}
