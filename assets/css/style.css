@@ -3,18 +3,56 @@ color: #FFF;
 transition:all 200ms ease-in-out;
 }
 
+.font-audiowide{
+    font-family: 'Audiowide', cursive;
+}
+
+.font-righteous{
+    font-family: 'Righteous', cursive;
+}
+
+.font-kelly-slab{
+    font-family: 'Kelly Slab', cursive;
+}
+
+.font-prosto-one{
+    font-family: 'Prosto One', cursive;
+}
+
+.jumbotron {
+    background-image: url(../images/Profile.JPG);
+    background-size: cover;
+    background-position-y: 65%;
+    background-position-x: center;
+    z-index: 4;
+}
+
+.jumbotron-shade{
+    background-color: rgba(0,0,0,0.6);
+    Height:100%;
+    padding: 1rem;
+}
+
+.button-padding{
+    padding:0.1rem;
+    margin: 0rem 1rem ;
+    width:100px;
+    height: 100%;
+}
+
+
 .active-link{
-    color:#DC3545;
+    color:#FFC107;
     transition:all 200ms ease-in-out;
 }
 
 .active-link:hover{
-    color:#DC3545;
+    color:#FFC107;
 }
 
 .nav-button:hover{
-    background-color: #DC3545;
-    color: #FFF;
+    background-color: #FFC107;
+    color: #000000;
     border-radius:5px;
 }
 
