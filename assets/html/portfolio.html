@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand navbar-dark bg-dark d-flex flex-column flex-md-row justify-content-around ">
         <a href="..\..\index.html" class="nav-item nav-link flex-grow-1 badge-button mx-1 p-0 px-sm-2"><span class="badge badge-secondary"><h1>Project|Space</h1></span></a>
         <div class="d-flex align-items-baseline nav-fill flex-grow-1 mx-2">
-            <a href="bio.html" class="nav-item nav-link h5 nav-button p-1 px-sm-3 py-sm-2 ">Biography</a>
+            <a href="bio.html" class="nav-item nav-link h5 nav-button p-1 px-sm-3 py-sm-2">Biography</a>
             <p class="h4 text-light px-1 px-sm-4">|</p>
             <a href="portfolio.html" class="nav-item nav-link h4 active-link active p-1 px-sm-3 py-sm-2">Portfolio</a>
             <p class="h4 text-light px-1 px-sm-4">|</p>
@@ -24,82 +24,168 @@
     <!-- end Navbar -->
 
     <!-- BS Grid and BS Card for portfolio Sections -->
-    <div class="container px-2 py-2 p-sm-3 p-lg-5">
+    <main class="container px-2 py-2 p-sm-3 p-lg-5">
         <div class="row">
             <div class="col-md-12">
-                <div class="card">
-                    <!-- ROW 1 -->
-                    <div class="row">
-                        <div class="col-md-6">
+                <div class="card px-2 py-2 py-sm-4 px-sm-4">
+                    <!-- TITLE ROW -->
+                    <div class="row p-0 p-md-2">
+                        <div class="col-12 pb-4">
+                            <h3 class="text-center">Portfolio</h3>
+                            <div class="title-perch"></div>
+                            <p class="py-2">
+                                Here is a comprehensive list of all the projects completed, currently working on or otherwise tinkering with.
+                                <dl>
+                                    <dt class="pt-2 pl-2"> 
+                                        <span class="bg-success rounded p-1">Completed</span>
+                                        <dd class="lead pb-2 pl-2">
+                                            Live sites and fully functioning projects, click them to find out more.
+                                        </dd>
+                                    </dt>
+                                    <dt class="pt-2 pl-2">
+                                        <span class="bg-warning rounded p-1">under construction</span>
+                                        <dd class="lead pb-2 pl-2">
+                                            Projects actively underway, some may have links for further information and updates.
+                                        </dd>
+                                    </dt>
+                                    <dt class="pt-2 pl-2">
+                                        <span class="bg-danger rounded p-1">Incubating</span>
+                                        <dd class="lead pb-2 pl-2">
+                                            Projects still in R&D and planning stages, they have a low time management priority.
+                                        </dd>
+                                    </dt>
+                                </dl>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- PROJECT ROW 1 -->
+                    <div class="row p-0 p-md-2">
+                        <div class="col-md-6 pb-4">
                             <!-- project 1 thumbnail -->
                             <div class="card">
-                                <img class="card-img" src="../images/wayne-restaurant-manager.jpg" alt="Card image">
-                                <div class="card-img-overlay">
-                                  <p class="card-text">I'm text that has a background image!</p>
+                                <a href="https://horiseon.business" class="text-dark">
+                                <img class="img-fluid w-100" src="../images/horiseon.png" alt="horiseon website thumbnail image">
+                                <div class="card-img-overlay ">
+                                  <p class="card-text p-1 bg-success rounded font-weight-bold text-center">Completed</p>
+                                </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="text-center">Horiseon website</h5>
+                                    <p class="lead">
+                                        Refactoring Code for Horiseon's personal website.
+                                        Improving code semantics and website accessibility.
+                                        Click the thumbnail to visit the live site!
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    15 Feb 2020
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 pb-4">
                             <!-- project 2 thumbnail -->
                             <div class="card">
-                                <img class="card-img" src="../images/wayne-restaurant-manager.jpg" alt="Card image">
+                                <img class="img-fluid w-100" src="../images/projectspacethumbnail.png" alt="An image of Wayne">
                                 <div class="card-img-overlay">
-                                  <p class="card-text bg-danger">I'm text that has a background image!</p>
+                                  <p class="card-text p-1 bg-warning rounded font-weight-bold text-center"> Under Construction</p>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="text-center">Project|Space</h5>
+                                    <p class="lead">
+                                        A space on the web that houses all my undergoing and completed projects. 
+                                        Also contains a small autobiography and a way to get in contact with me. 
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    Started - 17 Feb 2020
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- ROW  -->
-                    <div class="row">
-                        <div class="col-md-6">
+                    <!-- PROJECT ROW 2 -->
+                    <div class="row p-0 p-md-2">
+                        <div class="col-md-6 pb-4">
                             <!-- project 3 thumbnail -->
                             <div class="card">
-                                <img class="card-img" src="../images/wayne-restaurant-manager.jpg" alt="Card image">
+                                <img class="img-fluid w-100" src="../images/mosaicss.png" alt="An image of geometry">
                                 <div class="card-img-overlay">
-                                  <p class="card-text">I'm text that has a background image!</p>
+                                  <p class="card-text p-1 bg-danger rounded font-weight-bold text-center">Incubating</p>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="text-center">Mosiacss</h5>
+                                    <p class="lead">
+                                        A html/css framework based off the mathematics of polygons, exploring a colourful opportunity to tile the browser 
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    in planning
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 pb-4">
                             <!-- project 4 thumbnail -->
                             <div class="card">
-                                <img class="card-img" src="../images/wayne-restaurant-manager.jpg" alt="Card image">
+                                <img class="img-fluid w-100" src="../images/noimage.png" alt="no image to display">
                                 <div class="card-img-overlay">
-                                  <p class="card-text">I'm text that has a background image!</p>
+                                  <p class="card-text p-1 bg-danger rounded font-weight-bold text-center">Incubating</p>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="text-center">Password Generator</h5>
+                                    <p class="lead">
+                                        A browser based password generator built with javascript. It aims to generate a memorable password from user input up-to-date with modern password standards. 
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    in planning
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
-                    <!-- ROW 3 -->
-                    <div class="row">
-                        <div class="col-md-6">
-                            <!-- project 5 thumbnail -->
+                    <!-- PROJECT ROW 3 -->
+                    <div class="row p-0 p-md-2">
+                        <div class="col-md-6 pb-4">
+                            <div class="card">
+                                <img class="img-fluid w-100" src="../images/more projects on the way.png" alt="Card image">
+                                <!-- <div class="card-img-overlay">
+                                  <p class="card-text p-1 bg-danger rounded font-weight-bold text-center">Incubating</p>
+                                </div> -->
+                                <div class="card-body">
+                                    <h5 class="text-center">more to come....</h5>
+                                    <p class="lead">
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    stay up to date and check back often!
+                                </div>
+                            </div>
+                        </div>
+                        <!-- PLACEHOLDER FOR FUTURE PROJECTS
+                        <div class="col-md-6 ">
+                            project 6 thumbnail
                             <div class="card">
                                 <img class="card-img" src="../images/wayne-restaurant-manager.jpg" alt="Card image">
                                 <div class="card-img-overlay">
                                   <p class="card-text">I'm text that has a background image!</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <!-- project 6 thumbnail -->
-                            <div class="card">
-                                <img class="card-img" src="../images/wayne-restaurant-manager.jpg" alt="Card image">
-                                <div class="card-img-overlay">
-                                  <p class="card-text">I'm text that has a background image!</p>
-                                </div>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 
     <!-- end grid -->
 
+    <!-- BS Sticky Footer -->
+    <footer class="navbar navbar-expand bg-dark fixed-bottom d-flex justify-content-center align-items-center">
+        <a href="portfolio.html" class="nav-item nav-link mx-4 p-0"><span class="badge badge-secondary"><h4>Project|Space</h4></span></a>
+        <h4 class="text-warning mx-4 p-0">Portfolio</h4>
+    </footer>
+    <!-- End Sticky Footer -->
 
-
+    <!-- BootStrap Java CDN -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
