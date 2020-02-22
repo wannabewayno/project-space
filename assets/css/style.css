@@ -1,24 +1,10 @@
-.nav-button{
-color: #FFF;
-transition:all 200ms ease-in-out;
-}
 
+/* Font famillies */
 .font-audiowide{
     font-family: 'Audiowide', cursive;
 }
 
-.font-righteous{
-    font-family: 'Righteous', cursive;
-}
-
-.font-kelly-slab{
-    font-family: 'Kelly Slab', cursive;
-}
-
-.font-prosto-one{
-    font-family: 'Prosto One', cursive;
-}
-
+/* jumbotron background image*/
 .jumbotron {
     background-image: url(../images/Profile.JPG);
     background-size: cover;
@@ -27,11 +13,14 @@ transition:all 200ms ease-in-out;
     z-index: 4;
 }
 
+/* shaded block on jumbotron for links and text */
 .jumbotron-shade{
     background-color: rgba(0,0,0,0.6);
     Height:100%;
     padding: 1rem;
 }
+
+/* custom options for nav bar buttons below */
 
 .button-padding{
     padding:0.1rem;
@@ -40,6 +29,11 @@ transition:all 200ms ease-in-out;
     height: 100%;
 }
 
+
+.nav-button{
+    color: #FFF;
+    transition:all 200ms ease-in-out;
+    }
 
 .active-link{
     color:#FFC107;
@@ -56,14 +50,16 @@ transition:all 200ms ease-in-out;
     border-radius:5px;
 }
 
+/* Big logo spinner, setting transition */
 .badge-button{
     transition:all 400ms ease-in-out;
 }
-
+/* Big logo spinner, spinner effect */
 .badge-button:hover{
     transform:rotateX(360deg)
 }
 
+/* a coloured div used for line breaks */
 .title-perch{
     width:100%;
     height:2px;
