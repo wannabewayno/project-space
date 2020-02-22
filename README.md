@@ -19,4 +19,4 @@ The webiste is simple and to the point.
   * A contact page to get in touch.
 
 ### Check it out
-> <a href="https://projectspace.com"><strong>Project|Space</strong></a>
+> <a href="https://projectspace.dev"><strong>Project|Space</strong></a>
